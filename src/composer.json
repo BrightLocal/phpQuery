@@ -1,0 +1,25 @@
+{
+    "name": "brightlocal/php-query",
+    "type": "library",
+    "description": "A PHP library for quering HTML/XML",
+    "keywords": [
+        "phpQuery"
+    ],
+    "homepage": "https://github.com/brightlocal/phpQuery",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tobiasz Cudnik",
+            "email": "tobiasz.cudnik@gmail.com",
+            "homepage": "https://github.com/BrightLocal/phpQuery"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-0": {
+            "PhpQuery": "src/"
+        }
+    }
+}
